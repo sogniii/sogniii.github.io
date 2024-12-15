@@ -1,3 +1,12 @@
+
+:root {
+
+    --text-color: white;
+    --background-color: beige;
+    --light-background-color: white;
+    --dark-background-color: #0B192C;
+}
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -7,29 +16,97 @@
 .playfair-display-regular {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
   }
   
 body {
-    mix-blend-mode: difference;
 
-    background-image: url('https://i.sstatic.net/LtCRM.png');
-    background-position: center center;
-    background-repeat: repeat;
-    background-size: 4em;
+    background-color: var(--background-color);
+    margin-left: 10%;
+    margin-right: 10%;
+    mix-blend-mode: difference;
+    color: var(--text-color);
+    font-family: "Playfair Display", serif;
+}
+
+header {
+
+    
+    font-size: 31px;
+    text-align: center;
 
 }
 
 header {
 
+    text-align: center;
+
+
+}
+
+.top-selector{
+
+    display:flex;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-size: large;
+
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+}
+
+.home, .games, .about-me, .ph, .ph2  {
+
+}
+
+.sellink, .sellink.visited, .sellink.hover {
+    color : var(--text-color)
+}
+
+.divider {
+
+    
+}
+
+.contents {
+      /* We first create a flex layout context */
+  display: flex;
+
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  align-items: stretch;
+
+  font-size: 18px;
+
+
+}
+
+.left {
+
+    width: 60%;
+    padding: 10px; 
+}
+
+.right {
+
+    padding: 10px;   
+
+    border-left: 2px solid white;
+    border-radius: 2px;
+    border-color: gray;
+
     font-family: "Playfair Display", serif;
-    font-size: 96px;
-    text-align: center;
+
+    width: 25%;
 }
 
-h1 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-}
+.theme {
+    margin: 0 99% 0 99%;
 
+  }
