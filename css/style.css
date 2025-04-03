@@ -25,7 +25,6 @@ body {
     background-color: var(--background-color);
     margin-left: 10%;
     margin-right: 10%;
-    mix-blend-mode: difference;
     color: var(--text-color);
     font-family: "Playfair Display", serif;
 }
