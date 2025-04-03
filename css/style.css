@@ -9,14 +9,14 @@
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
   }
 
 .playfair-display-regular {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
   }
   
@@ -27,6 +27,7 @@ body {
     margin-right: 10%;
     color: var(--text-color);
     font-family: "Playfair Display", serif;
+    font-size: 24px;
 }
 
 header {
